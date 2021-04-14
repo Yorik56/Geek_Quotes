@@ -104,7 +104,8 @@ public class QuoteListActivity extends Activity {
             if(resultCode == QuoteActivity.RESULT_YES){
                 listOfQuote.get(bundle.getInt("position")).setRating(bundle.getInt("newRating"));
             } else if (resultCode == QuoteActivity.RESULT_NO) {
-                Toast.makeText(this,"pas de changement", Toast.LENGTH_LONG).show();
+                Toast.makeText(this,bundle.getString("msgCancel"), Toast.LENGTH_LONG).show();
+                Log.d(TAG,  bundle.getString("msgCancel"));
             }
         }
     }

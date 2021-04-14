@@ -7,6 +7,7 @@
         android:id="@+id/tvQuoteListActivity"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:textSize="18sp"
         android:gravity="center"
         android:text=""
         android:textColor="@color/white"

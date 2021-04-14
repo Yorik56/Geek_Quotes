@@ -61,6 +61,7 @@ public class QuoteActivity extends Activity implements View.OnClickListener {
         Intent intent = new Intent();
 
         if(v == btnActivityQuoteCancel)  {
+            intent.putExtra("msgCancel", "Pas de changement !");
             setResult(QuoteActivity.RESULT_NO, intent);
         } else if (v == buttonOk){
             int newRatingToInt = (int) ratingBar.getRating();
