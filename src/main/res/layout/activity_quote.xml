@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutActivityQuoteV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@color/black2"
+
+    >
+    <LinearLayout android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tvActivityQuoteText"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_height="60dp"/>
+
+        <TextView
+            android:id="@+id/tvActivityQuoteDate"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_height="60dp"/>
+
+        <RatingBar
+            android:id="@+id/rbRatingQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:progressTint="@color/golden" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutActivityQuoteH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btnActivityQuoteCancel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:background="@color/black"
+        />
+
+        <Button
+            android:id="@+id/btnActivityQuoteOk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:background="@color/black"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeekQuote</string>
+    <string name="write_a_quote">Write a quote</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="Cancel" />
+    <string-array name="array_of_quotes">
+        <item>He who laughs last, didnt get it.</item>
+        <item>When you\'re right, no one remembers. When you\'re wrong, no one forgets.</item>
+        <item>A clear conscience is usually the sign of a bad memory.</item>
+        <item>Advice is what we ask for when we already know the answer but wish we didn\'t.</item>
+        <item>Chuck Norris frequently donates blood to the Red Cross. Just never his own.</item>
+        <item>God created the world, everything else is made in China.</item>
+    </string-array>
+
+
+</resources>
